@@ -12,7 +12,15 @@ function forLoop(array) {
 
 function whileLoop(input) {
   while (input > 0) {
-    console.log(--input)
+    console.log(--input);
   }
 return "done"
+}
+
+function doWhileLoop(array) {
+  function incrementVariable() {
+    i = i + 1;
+  }
+
+  do {   }
 }
