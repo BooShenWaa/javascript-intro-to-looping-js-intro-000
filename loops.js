@@ -14,5 +14,5 @@ function whileLoop(input) {
   while (input > 0) {
     console.log(--input)
   }
-  
+return "done"
 }
